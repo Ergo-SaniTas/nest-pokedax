@@ -44,6 +44,9 @@ npm start:dev
 2. Llenar las variables de entorno de prod
 3. Crear la nueva imagen
 ```
+
+https://gist.github.com/Klerith/e7861738c93712840ab3a38674843490
+Editar - yarm.lock por package-lock.json y RUN yarn build x npm RUN build- segun el caso 
 docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
 ```
 # Notas
